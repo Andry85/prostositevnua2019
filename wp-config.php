@@ -19,14 +19,20 @@
  */
 
 // ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define( 'DB_NAME', 'prostositevnua2019' );
 
-/** MySQL database username */
-define( 'DB_USER', 'root' );
 
-/** MySQL database password */
-define( 'DB_PASSWORD', '' );
+/** The name of the database for WordPress localhost */
+// define( 'DB_NAME', 'prostositevnua2019' );
+// define( 'DB_USER', 'root' );
+// define( 'DB_PASSWORD', '' );
+
+
+/** The name of the database for WordPress live site */
+define( 'DB_NAME', 'prostosait' );
+define( 'DB_USER', 'prostosait' );
+define( 'DB_PASSWORD', 'qJot1Nex5' );
+
+
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
