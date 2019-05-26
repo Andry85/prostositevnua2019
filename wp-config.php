@@ -22,15 +22,15 @@
 
 
 /** The name of the database for WordPress localhost */
-// define( 'DB_NAME', 'prostositevnua2019' );
-// define( 'DB_USER', 'root' );
-// define( 'DB_PASSWORD', '' );
+define( 'DB_NAME', 'prostositevnua2019' );
+define( 'DB_USER', 'root' );
+define( 'DB_PASSWORD', '' );
 
 
 /** The name of the database for WordPress live site */
-define( 'DB_NAME', 'prostosait' );
-define( 'DB_USER', 'prostosait' );
-define( 'DB_PASSWORD', 'qJot1Nex5' );
+// define( 'DB_NAME', 'prostosait' );
+// define( 'DB_USER', 'prostosait' );
+// define( 'DB_PASSWORD', 'qJot1Nex5' );
 
 
 

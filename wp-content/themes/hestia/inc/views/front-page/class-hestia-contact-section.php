@@ -140,29 +140,18 @@ class Hestia_Contact_Section extends Hestia_Abstract_Main {
 
 						?>
 					</div>
-					<?php
-					$hestia_contact_form_shortcode = get_theme_mod( 'hestia_contact_form_shortcode' );
-					if ( ! empty( $hestia_contact_form_shortcode ) ) {
-						?>
-						<div class="col-md-5 col-md-offset-2 hestia-contact-form-col" <?php echo hestia_add_animationation( 'fade-left' ); ?>>
+					<div class="col-md-5 col-md-offset-2 hestia-contact-form-col" <?php echo hestia_add_animationation( 'fade-left' ); ?>>
 							<div class="card card-contact">
-								<?php if ( ! empty( $hestia_contact_area_title ) || is_customize_preview() ) : ?>
 									<div class="header header-raised header-primary text-center">
-										<h4 class="card-title"><?php echo esc_html( $hestia_contact_area_title ); ?></h4>
+										<h4 class="card-title">Контакти</h4>
 									</div>
-								<?php endif; ?>
+								
 								<div class="content">
-									
-									<?php echo do_shortcode( '[contact-form-7 id="51" title="Footer Form"]' ); ?>
+									<?php echo do_shortcode( '[contact-form-7 id="64" title="Footer Form"]' ); ?>
 								</div>
 							</div>
 						</div>
-						<?php
-
-					} elseif ( is_customize_preview() ) {
-						echo hestia_contact_form_placeholder();
-					}
-					?>
+						
 				</div>
 				<?php hestia_bottom_contact_section_content_trigger(); ?>
 			</div>
