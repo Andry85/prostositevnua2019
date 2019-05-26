@@ -126,10 +126,9 @@ class Hestia_Contact_Section extends Hestia_Abstract_Main {
 						<?php endif; ?>
 						<?php
 
-						$contact_content_default = '';
-						if ( current_user_can( 'edit_theme_options' ) ) {
-							$contact_content_default = $this->content_default();
-						}
+						
+						$contact_content_default = $this->content_default();
+						
 
 						$hestia_contact_content = get_theme_mod( 'hestia_contact_content_new', wp_kses_post( $contact_content_default ) );
 						if ( ! empty( $hestia_contact_content ) ) {
